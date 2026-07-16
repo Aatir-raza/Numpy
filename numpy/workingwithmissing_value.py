@@ -1,0 +1,5 @@
+import numpy as np
+a=np.array([1,2,3,4, np.nan,6])
+print (a)
+b=a[~np.isnan(a)] # save the filtered array
+print (b)
